@@ -10,7 +10,7 @@ interface CardProps {
 }
 
 export default function Card({item}: CardProps) {
-  const whatsappLink = `https://wa.me/+221703564965`; // Construct WhatsApp link
+  const whatsappLink = `https://wa.me/+221771046122`; // Construct WhatsApp link
   
   return (
     
