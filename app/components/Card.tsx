@@ -2,7 +2,6 @@ import { ProductsType } from "../Types/productsType"
 import {toast} from "react-toastify"
 import { GiWorld } from "react-icons/gi";
 import { GiVillage } from "react-icons/gi";
-import { MdCalendarMonth } from "react-icons/md";
 import Image from "next/image";
 
 interface CardProps {
@@ -29,20 +28,13 @@ export default function Card({item}: CardProps) {
           <span>Pieces:</span></span>
           <span>{item.piece}</span>
         </p>
-
-        <p className="text-[12px] text-gray-900 flex items-center gap-2">
-          <span className="font-bold flex items-center">
-            <MdCalendarMonth/>
-          <span>Conditions:</span></span>
-          <span>{item.Conditions} mois</span>
-        </p>
         
         <p className="text-[14px] text-gray-400">
           {item.desc}
         </p>
 
         <p className="bg-orange-400 text-white font-bold mt-2 absolute top-2 right-2 p-4 rounded-full">
-          {item.price} Frs CFA / mois
+          {item.price} Frs CFA / Journée
         </p>
         
         <button

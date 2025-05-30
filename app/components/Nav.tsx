@@ -2,7 +2,7 @@
 
 import {useState, useEffect} from 'react'
 import Link from "next/link"
-import { User, Menu, X, Bolt } from 'lucide-react';
+import {Menu, X, Landmark } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 
@@ -27,7 +27,7 @@ export default function Nav() {
             <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
                     <div className="flex-shrink-0 text-white">
-                    <Bolt/>
+                    <Landmark/>
                     </div>
                     <div className="md:block">
                         <div className="ml-10 flex items-baseline space-x-4 text-white">
@@ -41,7 +41,7 @@ export default function Nav() {
                 </div>
                 <div className="hidden md:block">
                     <Link href="/" className="text-wrhite hover:text-yellow-500 text-white">
-                    <User size={20}/>
+                    <Landmark size={20}/>
                     </Link>
                 </div>
                 <div className="flex md:hidden">

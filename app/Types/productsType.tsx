@@ -6,7 +6,6 @@ export type ProductsType ={
     desc: string;
     zone: string;
     image: string;
-    Conditions: number;
     piece: number;
     price: string;
 }
