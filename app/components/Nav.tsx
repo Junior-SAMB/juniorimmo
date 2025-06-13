@@ -16,9 +16,7 @@ export default function Nav() {
 
   const menuItems = [
     {label: "Accueil", href: "/"},
-    {label: "Chambres/Studios", href: "/chambres"},
-    {label: "Maisons à vendre", href: "/appartement"},
-    {label: "Terrains à vendre", href: "/terrains"},
+    {label: "Meublés de Luxe", href: "/chambres"},
   ]
 
   return (
