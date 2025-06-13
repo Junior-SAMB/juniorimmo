@@ -9,7 +9,7 @@ interface CardProps {
 }
 
 export default function Card({item}: CardProps) {
-  const whatsappLink = `https://wa.me/+221771046122`; // Construct WhatsApp link
+  const whatsappLink = `https://wa.me/+221765380619`; // Construct WhatsApp link
   
   return (
     
@@ -41,14 +41,14 @@ export default function Card({item}: CardProps) {
   className="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold animate-pulse"
   onClick={() => {
     // Option 1: Using Toast Notification for information
-    toast.info("Le numéro de téléphone (+221 77 104 61 22) a été copié dans le presse-papier. Veuillez passer l'appel manuellement.");
+    toast.info("Le numéro de téléphone (+221 76 538 06 19) a été copié dans le presse-papier. Veuillez passer l'appel manuellement.");
 
     // Option 2: Using window.open for a suggestion (less secure)
     // window.open("tel:+221771046122"); // This might not work on all browsers
 
     // Option 3: User prompt with a link (More secure)
-    if (confirm("Voulez-vous appeler le +221 77 104 61 22 ?")) {
-      window.location.href = "tel:+221771046122";
+    if (confirm("Voulez-vous appeler le +221 76 538 06 19 ?")) {
+      window.location.href = "tel:+221765380619";
     }
   }}
 >
